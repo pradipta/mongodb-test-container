@@ -1,4 +1,4 @@
-package com.pradipta.container.mongo;
+package com.github.pradipta.container.mongo;
 
 import org.testcontainers.containers.GenericContainer;
 

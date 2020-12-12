@@ -1,4 +1,4 @@
-import com.pradipta.container.mongo.MongoDBContainer;
+import com.github.pradipta.container.mongo.MongoDBContainer;
 import org.junit.Assert;
 import org.junit.Test;
 

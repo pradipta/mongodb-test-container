@@ -12,10 +12,6 @@ public class MongoDBContainer extends GenericContainer<MongoDBContainer> {
         this(DEFAULT_IMAGE_AND_TAG);
     }
 
-//    public void start() {
-//        this.start();
-//    }
-
     public MongoDBContainer(String image) {
         super(image);
         addExposedPort(MONGODB_DEFAULT_PORT);
